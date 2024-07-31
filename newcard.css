@@ -1,0 +1,23 @@
+.myresumeclass{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.myresumeclass span{
+    margin-left: 5px;
+    font-weight: bolder;
+}
+.gallary_container_resume{
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:  90px;
+    gap: 20px;
+    height: auto;
+   
+}
+.gallary_con_resume{
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 20px;
+}

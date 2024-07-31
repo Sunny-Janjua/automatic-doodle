@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav_container{
+    background-image: url("img/image_1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 140vh;
+    width: auto;
+}
+.container{
+    background-color: #787878;
+    height: 140vh;
+    width: auto;
+    opacity: 0.6;
+   
+    
+
+}
+.navbar_container{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    list-style-type: none;
+    gap: 30px;
+}
+a{
+    color: white;  
+    text-decoration: none;
+}
+.header_class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+    margin: auto;
+}
+.new_section_container{
+    background-color:#222222;
+    height: 225vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.portfolio_class{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 100px;
+}
+.portfolio_class span{
+    font-weight: bold;
+    margin-left: 15px;
+}
+.navbar_container_new{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    gap: 30px;
+}
+.gallary_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:  90px;
+    gap: 70px;
+    height: auto;
+   
+}
+
+img{
+    height: 90%;
+    width: 100%;
+
+}
+.headingof {
+    text-align: center;
+    color: white;
+}
+.paraof{
+    text-align: center;
+    color: white; 
+
+}
+
+
+.gallary_con:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/* resume */
+.resumeclass{
+background-color: #222222;
+overflow: hidden;
+
+}
+.myresumeclass{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.myresumeclass span{
+    margin-left: 5px;
+    font-weight: bolder;
+}
+.gallary_container_resume{
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:  90px;
+    gap: 20px;
+    height: auto;
+   
+}
+.gallary_con_resume{
+    background-color: #333333;
+    border-radius: 10px;
+    padding: 40px;
+    align-items: flex-start;
+}
+h1{
+    color: #879370;
+}
+p{
+    color: #787878;
+    margin: 10px;
+}
+
+
+
+
+.aboutclass_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    height: 100vh;
+    width: 100%;
+}
+
+.about_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutimg{
+    height: 80vh;
+    width: 80%;
+    margin-left: 50px;
+}
+.paragraphofabout{
+    margin-right: 100px;
+}
+.hire_btn{
+    background-color: rgba(172, 255, 47, 0.516);
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+.cv_btn{
+    margin: 10px;
+    background-color: gray;
+    color: white;
+    padding: 6px 18px;
+    border-radius: 20px;
+
+}
